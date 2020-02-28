@@ -11,9 +11,10 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 let totalSum = 0;
 for (let num = 1; num < 1000; num++) {
-    if (num % 3 === 0 || num % 5 === 0) {
-        totalSum += num;
-    }
+  if (num % 3 === 0 || num % 5 === 0) {
+    totalSum += num;
+  }
 }
 
+// eslint-disable-next-line no-console
 console.log(totalSum); // 233168
